@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'versaversa';
+    src: url('fonts/versa-versa-webfont.woff2') format('woff2'),
+        url('fonts/versa-versa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: 'versaversa',Arial, sans-serif;
+
+}
+
+.cabecera {
+    width: auto;
+    height: 150px;
+    background-color: rgb(36, 68, 158);
+}
+
+.menu {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: #0059ff;
+    text-align: left;
+    font-family: 'versaversa', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:rgb(46, 102, 204);
+}
+
+a:link {
+    color: rgb(230, 230, 230);
+}
+
+a:visited {
+    color: rgb(230, 230, 230);
+}
+
+a:hover {
+    color: rgb(68, 218, 255);
+}
+
+.botones {
+    text-shadow: 1px 2px 2px #7c7c7c;
+    padding-left: 30px;
+    text-decoration: solid;
+
+
+
+}
+
+body {
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-bottom: 5%;
+    font-family: "";
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    background-image: url("../img/curves.png");
+
+}
