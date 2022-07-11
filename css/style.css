@@ -63,8 +63,9 @@ body {
     font-family: 'versaversa', Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: white;
-    background-color: rgb(255, 217, 160);
+    color: rgb(0, 202, 0);
+    background: url("../img/grass_wallpaper.jpg") fixed;
+    background-size: 1920px 1080px;
     /*
     background: url("../img/retro_wallpaper.jpg") fixed;
     background-size: 1920px 1080px;
@@ -147,13 +148,13 @@ body {
     height: 370px;
     margin-top: 50px;
     padding: 50px 50px;
-    border: 10px rgb(255, 198, 75) solid;
+    border: 10px rgb(30, 112, 19) solid;
     text-align: center;
     grid-template-columns: 100px 100px 100px 100px 100px;
     grid-template-rows: 100px 100px 100px 100px 100px;
     column-gap: 43px;
     row-gap: 35px;
-    background-color: rgb(255, 202, 122);
+    background-color: rgb(197, 255, 122);
 
 }
 .itema {
@@ -161,104 +162,103 @@ body {
     grid-row: 1;
     font-size: 50px;
     padding: 15px 0;
-    border: 5px rgb(61, 53, 31) solid;
-    background-color: rgb(235, 191, 82);
+    border: 5px rgb(107, 180, 58) solid;
 }
 .itemb {
     grid-column: 2;
     grid-row: 1;
     font-size: 50px;
     padding: 15px 0;
-    border: 5px rgb(61, 53, 31) solid;
+    border: 5px rgb(107, 180, 58) solid;
 }
 .itemc {
     grid-column: 3;
     grid-row: 1;
     font-size: 50px;
     padding: 15px 0;
-    border: 5px rgb(61, 53, 31) solid;
+    border: 5px rgb(107, 180, 58) solid;
 }
 .itemd {
     grid-column: 4;
     grid-row: 1;
     font-size: 50px;
     padding: 15px 0;
-    border: 5px rgb(61, 53, 31) solid;
+    border: 5px rgb(107, 180, 58) solid;
 }
 .iteme {
     grid-column: 5;
     grid-row: 1;
     font-size: 50px;
     padding: 15px 0;
-    border: 5px rgb(61, 53, 31) solid;
+    border: 5px rgb(107, 180, 58) solid;
 }
 .itemf {
     grid-column: 1;
     grid-row: 2;
     font-size: 50px;
     padding: 15px 0;
-    border: 5px rgb(61, 53, 31) solid;
+    border: 5px rgb(107, 180, 58) solid;
 }
 .itemg {
     grid-column: 2;
     grid-row: 2;
     font-size: 50px;
     padding: 15px 0;
-    border: 5px rgb(61, 53, 31) solid;
+    border: 5px rgb(107, 180, 58) solid;
 }
 .itemh {
     grid-column: 3;
     grid-row: 2;
     font-size: 50px;
     padding: 15px 0;
-    border: 5px rgb(61, 53, 31) solid;
+    border: 5px rgb(107, 180, 58) solid;
 }
 .itemi {
     grid-column: 4;
     grid-row: 2;
     font-size: 50px;
     padding: 15px 0;
-    border: 5px rgb(61, 53, 31) solid;
+    border: 5px rgb(107, 180, 58) solid;
 }
 .itemj {
     grid-column: 5;
     grid-row: 2;
     font-size: 50px;
     padding: 15px 0;
-    border: 5px rgb(61, 53, 31) solid;
+    border: 5px rgb(107, 180, 58) solid;
 }
 .itemk {
     grid-column: 1;
     grid-row: 3;
     font-size: 50px;
     padding: 15px 0;
-    border: 5px rgb(61, 53, 31) solid;
+    border: 5px rgb(107, 180, 58) solid;
 }
 .iteml {
     grid-column: 2;
     grid-row: 3;
     font-size: 50px;
     padding: 15px 0;
-    border: 5px rgb(61, 53, 31) solid;
+    border: 5px rgb(107, 180, 58) solid;
 }
 .itemm {
     grid-column: 3;
     grid-row: 3;
     font-size: 50px;
     padding: 15px 0;
-    border: 5px rgb(61, 53, 31) solid;
+    border: 5px rgb(107, 180, 58) solid;
 }
 .itemn {
     grid-column: 4;
     grid-row: 3;
     font-size: 50px;
     padding: 15px 0;
-    border: 5px rgb(61, 53, 31) solid;
+    border: 5px rgb(107, 180, 58) solid;
 }
 .itemo {
     grid-column: 5;
     grid-row: 3;
     font-size: 50px;
     padding: 15px 0;
-    border: 5px rgb(61, 53, 31) solid;
+    border: 5px rgb(107, 180, 58) solid;
 }

@@ -3,8 +3,7 @@ function select() {
     document.body.addEventListener("click", (e)=>{ 
     let self = e.target;
     old_bg = self.style.background;
-    /*console.log(self);*/
-    self.style.background = self.style.background=='brown'? 'blue':'brown';
+    self.style.background = self.style.background =='darkbrown';
     })
 
 
