@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'versaversa';
-    src: url('fonts/versa-versa-webfont.woff2') format('woff2'),
-        url('fonts/versa-versa-webfont.woff') format('woff');
+    src: url('../fonts/versa-versa-webfont.woff2') format('woff2'),
+        url('../fonts/versa-versa-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -163,6 +163,7 @@ body {
     font-size: 50px;
     padding: 15px 0;
     border: 5px rgb(107, 180, 58) solid;
+    background-color: green;
 }
 .itemb {
     grid-column: 2;
@@ -170,6 +171,7 @@ body {
     font-size: 50px;
     padding: 15px 0;
     border: 5px rgb(107, 180, 58) solid;
+    background-color: green;
 }
 .itemc {
     grid-column: 3;
@@ -177,6 +179,7 @@ body {
     font-size: 50px;
     padding: 15px 0;
     border: 5px rgb(107, 180, 58) solid;
+    background-color: green;
 }
 .itemd {
     grid-column: 4;
@@ -184,6 +187,7 @@ body {
     font-size: 50px;
     padding: 15px 0;
     border: 5px rgb(107, 180, 58) solid;
+    background-color: green;
 }
 .iteme {
     grid-column: 5;
@@ -191,6 +195,7 @@ body {
     font-size: 50px;
     padding: 15px 0;
     border: 5px rgb(107, 180, 58) solid;
+    background-color: green;
 }
 .itemf {
     grid-column: 1;
@@ -198,6 +203,7 @@ body {
     font-size: 50px;
     padding: 15px 0;
     border: 5px rgb(107, 180, 58) solid;
+    background-color: green;
 }
 .itemg {
     grid-column: 2;
@@ -205,6 +211,7 @@ body {
     font-size: 50px;
     padding: 15px 0;
     border: 5px rgb(107, 180, 58) solid;
+    background-color: green;
 }
 .itemh {
     grid-column: 3;
@@ -212,6 +219,7 @@ body {
     font-size: 50px;
     padding: 15px 0;
     border: 5px rgb(107, 180, 58) solid;
+    background-color: green;
 }
 .itemi {
     grid-column: 4;
@@ -219,6 +227,7 @@ body {
     font-size: 50px;
     padding: 15px 0;
     border: 5px rgb(107, 180, 58) solid;
+    background-color: green;
 }
 .itemj {
     grid-column: 5;
@@ -226,6 +235,7 @@ body {
     font-size: 50px;
     padding: 15px 0;
     border: 5px rgb(107, 180, 58) solid;
+    background-color: green;
 }
 .itemk {
     grid-column: 1;
@@ -233,6 +243,7 @@ body {
     font-size: 50px;
     padding: 15px 0;
     border: 5px rgb(107, 180, 58) solid;
+    background-color: green;
 }
 .iteml {
     grid-column: 2;
@@ -240,6 +251,7 @@ body {
     font-size: 50px;
     padding: 15px 0;
     border: 5px rgb(107, 180, 58) solid;
+    background-color: green;
 }
 .itemm {
     grid-column: 3;
@@ -247,6 +259,7 @@ body {
     font-size: 50px;
     padding: 15px 0;
     border: 5px rgb(107, 180, 58) solid;
+    background-color: green;
 }
 .itemn {
     grid-column: 4;
@@ -254,6 +267,7 @@ body {
     font-size: 50px;
     padding: 15px 0;
     border: 5px rgb(107, 180, 58) solid;
+    background-color: green;
 }
 .itemo {
     grid-column: 5;
@@ -261,4 +275,5 @@ body {
     font-size: 50px;
     padding: 15px 0;
     border: 5px rgb(107, 180, 58) solid;
+    background-color: green;
 }
