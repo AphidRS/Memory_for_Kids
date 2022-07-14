@@ -1,44 +1,49 @@
-window.onload=init();
+window.onload = init();
+window.onunload = () => sessionStorage.clear();
+
 let counter = 0;
 let selected = true;
+let self = null;
 
 
 function init() {
     for (let i = 1; i < 17; i++) {
         if(document.getElementById(i) != null) {
             document.getElementById(i).innerHTML = (Math.floor(Math.random() * 10 + 7));
-        }              
+        }      
     }
 }
 
 function select() {
     document.body.addEventListener("click", (e)=>{
         check();
-        if (selected=true) {
+        if (selected == true ) {
             let self = e.target;
             let self_id = self.getAttribute("id");
             if (self_id != null) {
                 if (self_id > 0 && self_id < 17) {
                     self.style.background = 'yellow';
-                    setTimeout(restore_bg, 5000);
+                    setTimeout(restore_bg, 5000, self);
+                }
             }
         }
+    })
+}
 
-    function restore_bg() {
-        /*change_value(self_id);*/
-        self.style.background = 'green';
-        let self_id = null;
-        counter--;
+function restore_bg(self) {
+    self.style.background = 'green';
+    let self_id = null;
+    counter--;
+    if (counter <= 2) {
+        selected == true;
     }
-}else {
+}
 
-}
-})
-}
 function check() {
-    counter++;
-    if (counter < 3) {
+    console.log(counter);
+    if (counter <= 1) {
         selected = true;
+        counter++;
     } else {
         selected = false;
     }
