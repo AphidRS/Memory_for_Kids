@@ -15,9 +15,10 @@ function init() {
 }
 
 function select() {
-    document.body.addEventListener("click", (e)=>{
-        check();
-        if (selected == true ) {
+    check();
+    console.log(selected);
+    if (selected === true) {
+            document.body.addEventListener("click", (e)=>{  
             let self = e.target;
             let self_id = self.getAttribute("id");
             if (self_id != null) {
@@ -26,17 +27,14 @@ function select() {
                     setTimeout(restore_bg, 5000, self);
                 }
             }
-        }
-    })
+        })
+    }
 }
 
 function restore_bg(self) {
     self.style.background = 'green';
     let self_id = null;
     counter--;
-    if (counter <= 2) {
-        selected == true;
-    }
 }
 
 function check() {
