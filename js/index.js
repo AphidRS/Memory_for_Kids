@@ -6,30 +6,47 @@ let selected = true;
 let self = null;
 
 
-function init() {
-    for (let i = 1; i < 17; i++) {
-        if(document.getElementById(i) != null) {
-            document.getElementById(i).innerHTML = (Math.floor(Math.random() * 10 + 7));
-        }      
+function randomize(no_repeat) {
+    for (let i = 0; i < 100; i++) {
+        let number = (Math.floor(Math.random() * 100) + 1);    
+            if(no_repeat[i] != number) {
+                no_repeat.push(number);
+            }
     }
+console.log(no_repeat);
+return no_repeat;
+}
+
+
+function init() {
+        let no_repeat = [];
+        let numbers = randomize(no_repeat);
+        for (let i = 1; i < 17; i++) { 
+            if(document.getElementById(i) != null) {
+                document.getElementById(i).innerHTML = numbers[i];
+            }
+        }
 }
 
 function select() {
+    document.body.addEventListener("click", (e)=>{change_bg(e)}, false);
+}
+
+
+function change_bg(e) {
     check();
-    console.log(selected);
-    if (selected === true) {
-            document.body.addEventListener("click", (e)=>{  
-            let self = e.target;
-            let self_id = self.getAttribute("id");
-            if (self_id != null) {
-                if (self_id > 0 && self_id < 17) {
-                    self.style.background = 'yellow';
-                    setTimeout(restore_bg, 5000, self);
-                }
+    if (selected === true) {  
+        let self = e.target;
+        let self_id = self.getAttribute("id");
+        if (self_id != null) {
+            if (self_id > 0 && self_id < 17) {
+                self.style.background = 'yellow';
+                setTimeout(restore_bg, 5000, self);
             }
-        })
+        }
     }
 }
+
 
 function restore_bg(self) {
     self.style.background = 'green';
@@ -52,4 +69,3 @@ function change_value(id_object) {
     let item_object = document.getElementById(id_object).innerHTML = "2";
 
 }*/
-
