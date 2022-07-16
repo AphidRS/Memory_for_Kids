@@ -40,7 +40,7 @@ function change_bg(e) {
         let self_id = self.getAttribute("id");
         if (self_id != null) {
             if (self_id > 0 && self_id < 17) {
-                self.style.background = 'yellow';
+                self.style.background = 'white';
                 setTimeout(restore_bg, 5000, self);
             }
         }
@@ -49,7 +49,7 @@ function change_bg(e) {
 
 
 function restore_bg(self) {
-    self.style.background = 'green';
+    self.style.background = 'rgb(0, 60, 128)';
     let self_id = null;
     counter--;
 }
