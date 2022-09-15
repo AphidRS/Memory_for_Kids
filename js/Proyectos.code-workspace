@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\Edix\\MP_0373 - Lenguajes de Marcas\\CFGS-AE-1-Web-Css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Proyectos"
+	}
+}
